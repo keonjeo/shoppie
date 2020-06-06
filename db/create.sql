@@ -1,4 +1,6 @@
-CREATE DATABASE `shoppie` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+
+CREATE DATABASE IF NOT EXISTS `shoppie` character set utf8mb4 collate utf8mb4_bin;
+use shoppie;
 
 -- brands
 CREATE TABLE brands(
